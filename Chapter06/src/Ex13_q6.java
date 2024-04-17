@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Ex13_q6
+{
+
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		// 몇개의 정수를 입력받을지 입력
+		System.out.print("몇 개의 정수를 입력하시겠습니까? :");
+		int count = sc.nextInt(); 
+		
+		
+		//입력받은 count 만큼 정수 입력
+		int sum = 0;
+		for(int i=0 ; i<count; i++)
+		{
+			System.out.print("정수를 입력하세요?("+(i+1)+"회) : ");
+			int num1 = sc.nextInt();
+			sum += num1;
+		}
+
+		double aver =  (double)sum / count ;
+		System.out.print("입력된 정수들의 평균값 :  "+ aver );
+	}
+}

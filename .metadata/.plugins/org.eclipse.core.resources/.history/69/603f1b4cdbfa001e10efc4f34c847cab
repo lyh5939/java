@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Ex10_q2
+{
+
+	public static void main(String[] args)
+	{
+		int count=1;
+		while(count < 3)
+		{
+			Scanner sc = new Scanner(System.in);
+			
+			System.out.println("국어 영어 수학 점수를 입력하세요");
+			int kor = sc.nextInt();
+			int eng = sc.nextInt();
+			int mat = sc.nextInt();
+			
+			double avg = (kor+eng+mat) / 3;
+			
+			char hacjum='F';
+			
+			if(avg >= 90)
+			{
+				hacjum = 'A';
+			}
+			else if(avg >= 80)
+			{
+				hacjum = 'B';
+			}
+			else if(avg >= 70)
+			{
+				hacjum = 'C';
+			}
+			else if(avg >= 50)
+			{
+				hacjum = 'D';
+			}
+			else
+			{
+				hacjum = 'F';
+			}
+			
+			
+			System.out.printf("국어 : %d 영어 : %d  수학 : %d 평균 %f.2 학점 : %c", kor,eng,mat,avg,hacjum );
+			count++;
+		}
+
+	}
+
+}

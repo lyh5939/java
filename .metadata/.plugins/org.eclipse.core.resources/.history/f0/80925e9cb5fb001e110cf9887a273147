@@ -1,0 +1,31 @@
+class 소방차
+{
+	String name;
+	
+	void doAction()
+	{
+		System.out.println("물을 뿌려서 불을 끕니다.");
+	}
+}
+
+class 경찰차
+{
+	
+}
+
+class 승용차
+{
+	
+}
+
+
+public class Starcreft
+{
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

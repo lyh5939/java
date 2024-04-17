@@ -1,0 +1,15 @@
+
+
+
+
+
+public class 마이케임월드
+{
+
+	public static void main(String[] args)
+	{
+		System.out.println("Hello");
+
+	}
+
+}

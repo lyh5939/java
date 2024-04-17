@@ -1,0 +1,27 @@
+
+public class Ex12_q4
+{
+	public static void main(String[] args)
+	{
+		int i=1;
+		int result=0;
+	   	do {
+	   		
+	   		if( i == 1000)
+	   		{
+	   			System.out.println( i);
+	   		}
+	   		else
+	   		{
+	   			System.out.println( i + "+");
+	   		}
+	   		
+	   		i++;
+	   		result=result+i;
+	   		
+	   	}while(i<=1000);
+	   	
+	   	System.out.println("="+result);
+	}
+	
+}
